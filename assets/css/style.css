@@ -301,6 +301,12 @@ ul.featured-list li{
 	/*box-shadow: 2px 2px black;*/
 	cursor: pointer;
 }
+/*changed made by amjadrana start*/
+#team figure img{
+	width: 100%  !important;
+	height: 100% !important;
+}
+/*changed made by amjadrana end*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
