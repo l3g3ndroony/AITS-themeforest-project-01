@@ -318,6 +318,9 @@ ul.featured-list li{
 	padding-top: 75px;
 	background: white;
 }
+#filters{
+	margin-bottom: 20px;
+}
 .portfolio-block.col-md-12{
 	padding: 0px;
 }

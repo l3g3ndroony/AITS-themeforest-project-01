@@ -18,4 +18,14 @@ $(document).ready(function() {
 	    }
 	});
 
+// init Isotope
+var $container = $('#isotope').isotope({
+  // options
+});
+// filter items on button click
+$('#filters').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $container.isotope({ filter: filterValue });
+});
+
 });

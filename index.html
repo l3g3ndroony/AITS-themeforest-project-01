@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADAVA</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <!-- Bootstrap -->
     <link href="assets/css/normalize.css" rel="stylesheet">
@@ -287,8 +288,21 @@
 
 <section id="portfolio" class="container-fluid">
   <h1 class="sec-title">OUR WORKS</h1>
+ <div id="filters">
+            <div class="button-group" data-filter-group="color">
+                <center>
+                    <a class="btn btn-adava" data-filter="">All</a>
+                    <a class="btn btn-adava" data-filter=".web">Web</a>
+                    <a class="btn btn-adava" data-filter=".android">Android</a>
+                    <a class="btn btn-adava" data-filter=".iphone">Iphone</a>
+                    <a class="btn btn-adava" data-filter=".desktop">Desktop</a>
+                </center>
+            </div>
+        </div>
+
   <div class="col-md-12 portfolio-block">
-    <div class="portfolio-item">
+  <div id="isotope">
+    <div class="portfolio-item web">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -298,7 +312,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item android">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -308,7 +322,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item iphone">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -318,7 +332,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item desktop">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -328,7 +342,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item web">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -338,7 +352,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item android">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -348,7 +362,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item iphone">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -358,7 +372,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item desktop">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -368,7 +382,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item web">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -378,7 +392,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item iphone">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -388,7 +402,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item android">
       <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -398,7 +412,7 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
+    <div class="portfolio-item desktop">
   <img clas src="assets/img/slider-img-1.jpg" class="img-responsive">
       <div class="caption text-center">
         <div class="caption-heading">
@@ -409,6 +423,7 @@
     </div>
 
 
+</div>
 </div>
 
 
@@ -528,6 +543,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
 
 	<!-- CUSTOM SCRIPT -->
 	<script src="assets/js/script.js"></script>
