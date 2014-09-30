@@ -55,7 +55,9 @@ section.container-fluid{
     box-shadow: 2px 2px 0px rgba(0,0,0,1);
 }
 
-
+.mini-space{
+	height:40px; 
+}
 
 
 /*TOP NAVIGATION AREA*/
@@ -161,16 +163,63 @@ section.container-fluid{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-ul.featured-list{
-	margin: 0;
-	padding: 0;
-	margin-bottom: 20px;
+.featured-list img{
+	margin: 0 auto;
 }
-ul.featured-list li{
-	list-style: none;
-	display: inline-block;
-	max-width: 19%;
+
+
+
+
+/*SERVICE SECTION*/
+
+#services{
+	background: rgba(255,255,255,0.95);
+	padding-top: 75px;
 }
+
+.service1{
+	background: url(../img/service1.jpg) fixed no-repeat;
+}
+.service2{
+	background: url(../img/service2.jpg) fixed no-repeat;
+}
+.service3{
+	background: url(../img/service3.jpg) fixed no-repeat;
+}
+.service4{
+	background: url(../img/service4.jpg) fixed no-repeat;
+}
+.service1,.service2,.service3,.service4{
+	background-size: cover;
+	display: flex;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+.service1{
+	box-shadow: none;
+}
+.service-detail{
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	padding: 50px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+
+}
+.service-detail img{
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*TEAM SECTION*/
@@ -318,6 +367,28 @@ ul.featured-list li{
 	}
 }
 
+@media (max-width: 767px){
+	h3{
+		font-size: 12px;
+	}h3+span{
+		font-size: 10px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	h3{
+		font-size: 15px;
+	}h3+span{
+		font-size: 12px;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	h3{
+		font-size: 20px;
+	}
+
+}
+
 
 /*PORTFOLIO SECTION*/
 #portfolio{
@@ -327,15 +398,17 @@ ul.featured-list li{
 #filters{
 	margin-bottom: 20px;
 }
-.portfolio-block.col-md-12{
+.portfolio-block{
 	padding: 0px;
 }
 
+.portfolio-item.col-md-3 {
+	padding: 0px;
+}
 .portfolio-item {
 	cursor: pointer;
     float: left;
     position: relative;
-    width: 25%;
     overflow: hidden;
 }
 .portfolio-item img{
@@ -474,4 +547,32 @@ address span,.address div.email span,.address div.phone span{
 #footer ul.social li:hover{
 	box-shadow: 2px 2px black;
 	cursor: pointer;
+}
+
+
+/*SMALL DEVICE RULES*/
+@media (max-width: 767px){
+
+#home h1{
+	font-size: 50px;
+	font-weight: 800;
+	color: white;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+@media (min-width: 1200px){
+
+
 }
